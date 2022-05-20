@@ -10,6 +10,17 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
+    transition: background-color 1s ease-in;
+
+    &:hover{
+
+        background-color: lighten($btn-color, 15%);
+
+
+    }
+
+
   }
   
   .default {
